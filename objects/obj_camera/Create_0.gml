@@ -1,3 +1,7 @@
+deslocamentoX = 0
+deslocamentoY = 0
+
+
 target = obj_player
 cam_width = camera_get_view_width(view_camera[0])
 cam_height = camera_get_view_height(view_camera[0])

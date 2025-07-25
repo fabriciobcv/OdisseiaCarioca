@@ -13,7 +13,7 @@ if (battle_active && battle_state != "end") {
 switch (battle_state) {
     case "start":
         // Exibe mensagem opcional
-        show_message("A batalha começou!");
+        //show_message("A batalha começou!");
         current_turn = 0;
         var ent = turn_queue[current_turn];
 

@@ -1,7 +1,8 @@
-function seguir_player() {
-	
+function deslocar_camera(x, y) {
+	obj_camera.deslocamentoX = x;
+	obj_camera.deslocamentoY  = y;
 }
 
-function deixar_player_no_canto_esquerda() {
-	
+function resetar_deslocamento_camera() {
+	deslocar_camera(0, 0)
 }
