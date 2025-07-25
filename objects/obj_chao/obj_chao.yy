@@ -1,9 +1,9 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_chao",
+  "$GMObject": "",
+  "%Name": "obj_chao",
   "eventList": [],
   "managed": true,
+  "name": "obj_chao",
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
@@ -24,6 +24,8 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
+  "resourceType": "GMObject",
+  "resourceVersion": "2.0",
   "solid": false,
   "spriteId": {
     "name": "spr_chao",
