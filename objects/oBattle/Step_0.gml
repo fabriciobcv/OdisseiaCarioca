@@ -1,4 +1,8 @@
 // Verificar fim da batalha
+if (!instance_exists(oBattleUI)) {
+	instance_create_layer(0, 0, 0, oBattleUI);
+}
+
 if (battle_active && battle_state != "end") {
     if (array_length(inimigos) == 0 || all_dead(inimigos)) {
         battle_state = "end";

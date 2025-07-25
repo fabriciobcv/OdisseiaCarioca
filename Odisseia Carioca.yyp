@@ -38,6 +38,7 @@
   "resources":[
     {"id":{"name":"oBattle","path":"objects/oBattle/oBattle.yy",},},
     {"id":{"name":"oBattleTrigger","path":"objects/oBattleTrigger/oBattleTrigger.yy",},},
+    {"id":{"name":"oBattleUI","path":"objects/oBattleUI/oBattleUI.yy",},},
     {"id":{"name":"oBattleUnits","path":"objects/oBattleUnits/oBattleUnits.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_chao","path":"objects/obj_chao/obj_chao.yy",},},
@@ -47,7 +48,9 @@
     {"id":{"name":"BattleScene","path":"rooms/BattleScene/BattleScene.yy",},},
     {"id":{"name":"Fase1","path":"rooms/Fase1/Fase1.yy",},},
     {"id":{"name":"BattleFunctions","path":"scripts/BattleFunctions/BattleFunctions.yy",},},
+    {"id":{"name":"CameraFunctions","path":"scripts/CameraFunctions/CameraFunctions.yy",},},
     {"id":{"name":"GameData","path":"scripts/GameData/GameData.yy",},},
+    {"id":{"name":"PlayerFunctions","path":"scripts/PlayerFunctions/PlayerFunctions.yy",},},
     {"id":{"name":"spr_chao","path":"sprites/spr_chao/spr_chao.yy",},},
     {"id":{"name":"spr_enemy_idle","path":"sprites/spr_enemy_idle/spr_enemy_idle.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},

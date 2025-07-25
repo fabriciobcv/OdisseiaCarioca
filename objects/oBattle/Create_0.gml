@@ -1,7 +1,3 @@
-// Estado inicial da batalha
-battle_active = true;
-battle_state = "start"; // "start", "turn_player", "turn_enemy", "end"
-
 // Certifique-se de que estas variáveis sejam definidas externamente:
 // `player` e `inimigos` devem ser atribuídos pelo oBattleTrigger antes da criação ou logo após.
 
@@ -12,6 +8,8 @@ if (!variable_instance_exists(id, "player")) {
 if (!variable_instance_exists(id, "inimigos")) {
     inimigos = [];
 }
+
+parar_player();
 
 // Montar a fila de turnos
 turn_queue = array_create(1, player); // cria array com o player
