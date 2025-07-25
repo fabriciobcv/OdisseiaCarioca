@@ -1,3 +1,8 @@
+if (hp <= 0) {
+    instance_destroy();
+}
+
+
 if keyboard_check(movement_keys[? "left"]){
 	x -=spd
 	image_xscale =-1
