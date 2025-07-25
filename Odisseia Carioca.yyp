@@ -49,7 +49,6 @@
     {"id":{"name":"Fase1","path":"rooms/Fase1/Fase1.yy",},},
     {"id":{"name":"BattleFunctions","path":"scripts/BattleFunctions/BattleFunctions.yy",},},
     {"id":{"name":"CameraFunctions","path":"scripts/CameraFunctions/CameraFunctions.yy",},},
-    {"id":{"name":"GameData","path":"scripts/GameData/GameData.yy",},},
     {"id":{"name":"PlayerFunctions","path":"scripts/PlayerFunctions/PlayerFunctions.yy",},},
     {"id":{"name":"spr_chao","path":"sprites/spr_chao/spr_chao.yy",},},
     {"id":{"name":"spr_enemy_idle","path":"sprites/spr_enemy_idle/spr_enemy_idle.yy",},},

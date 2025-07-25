@@ -27,7 +27,6 @@
     {"name":"obj_enemy_parent","order":5,"path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},
     {"name":"BattleScene","order":1,"path":"rooms/BattleScene/BattleScene.yy",},
     {"name":"CameraFunctions","order":3,"path":"scripts/CameraFunctions/CameraFunctions.yy",},
-    {"name":"GameData","order":1,"path":"scripts/GameData/GameData.yy",},
     {"name":"PlayerFunctions","order":2,"path":"scripts/PlayerFunctions/PlayerFunctions.yy",},
     {"name":"spr_chao","order":1,"path":"sprites/spr_chao/spr_chao.yy",},
     {"name":"spr_enemy_idle","order":3,"path":"sprites/spr_enemy_idle/spr_enemy_idle.yy",},

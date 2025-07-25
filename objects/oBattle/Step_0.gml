@@ -1,6 +1,11 @@
 // Verificar fim da batalha
-if (!instance_exists(oBattleUI)) {
-	instance_create_layer(0, 0, 0, oBattleUI);
+if (!setup_done) {
+    setup_done = true;
+    inicializar_batalha(id);
+	
+	if (!instance_exists(oBattleUI)) {
+		instance_create_layer(0, 0, 0, oBattleUI);
+	}
 }
 
 if (battle_active && battle_state != "end") {
@@ -44,7 +49,7 @@ switch (battle_state) {
         if (instance_exists(ent)) {
             with (ent) {
                 if (instance_exists(other.player)) {
-                    other.player.hp -= 10; // ataque simples
+                    other.player.hp -= 5; // ataque simples
                 }
             }
         }

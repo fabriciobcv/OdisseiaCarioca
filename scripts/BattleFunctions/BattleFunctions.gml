@@ -1,15 +1,22 @@
-function NewEncounter(_enemies) {
-	instance_create_depth(
-		obj_camera.x,
-		obj_camera.y,
-		-9999,
-		oBattle,
-		{
-			enemies: _enemies, creator: id		
-		}
-	);
+function inicializar_batalha(self) {
+    if (!variable_instance_exists(self, "player")) {
+        self.player = instance_find(obj_player, 0);
+    }
+    if (!variable_instance_exists(self, "inimigos")) {
+        self.inimigos = [];
+    }
 
+    self.battle_active = true;
+    self.battle_state = "start";
+
+    parar_player();
+    deslocar_camera(100, 0);
+
+    self.turn_queue = array_create(1, self.player);
+    self.turn_queue = array_concat(self.turn_queue, self.inimigos);
+    self.current_turn = 0;
 }
+
 
 function advance_turn() {
     current_turn += 1;
