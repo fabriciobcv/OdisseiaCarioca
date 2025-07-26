@@ -1,5 +1,5 @@
 if (hp <= 0) {
-    instance_destroy();
+    sprite_index= spr_player_dead;
 }
 
 if(can_move){

@@ -41,3 +41,7 @@ function all_dead(arr) {
     }
     return true;
 }
+
+function battle_is_player_dead(player) {
+	return player.hp <= 0;
+}

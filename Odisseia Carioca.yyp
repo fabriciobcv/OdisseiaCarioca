@@ -47,11 +47,13 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"BattleScene","path":"rooms/BattleScene/BattleScene.yy",},},
     {"id":{"name":"Fase1","path":"rooms/Fase1/Fase1.yy",},},
+    {"id":{"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},},
     {"id":{"name":"BattleFunctions","path":"scripts/BattleFunctions/BattleFunctions.yy",},},
     {"id":{"name":"CameraFunctions","path":"scripts/CameraFunctions/CameraFunctions.yy",},},
     {"id":{"name":"PlayerFunctions","path":"scripts/PlayerFunctions/PlayerFunctions.yy",},},
     {"id":{"name":"spr_chao","path":"sprites/spr_chao/spr_chao.yy",},},
     {"id":{"name":"spr_enemy_idle","path":"sprites/spr_enemy_idle/spr_enemy_idle.yy",},},
+    {"id":{"name":"spr_player_dead","path":"sprites/spr_player_dead/spr_player_dead.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
     {"id":{"name":"spr_player_run","path":"sprites/spr_player_run/spr_player_run.yy",},},
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},},
@@ -61,6 +63,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Fase1","path":"rooms/Fase1/Fase1.yy",},},
     {"roomId":{"name":"BattleScene","path":"rooms/BattleScene/BattleScene.yy",},},
+    {"roomId":{"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
