@@ -17,6 +17,4 @@ turn_queue = array_concat(turn_queue, inimigos);
 // adiciona inimigos depois
 current_turn = 0;
 
-// Novas variáveis para seleção de ataque
-selected_attack_index = 0;
-selecting_target = false;
+selected_attack_index = -1; // -1 significa que nenhum ataque foi selecionado
