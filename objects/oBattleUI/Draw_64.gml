@@ -2,7 +2,6 @@ if (!instance_exists(oBattle) || !instance_exists(obj_player)) {
     exit;
 }
 
-// Pega as coordenadas do mouse na camada de GUI (ESSA É A CORREÇÃO PRINCIPAL)
 var mx = device_mouse_x_to_gui(0);
 var my = device_mouse_y_to_gui(0);
 
@@ -30,11 +29,10 @@ for (var i = 0; i < array_length(oBattle.inimigos); i++) {
 if (oBattle.battle_state == "turn_player") {
     py += 20;
     
-    // Mostra uma instrução que muda dependendo do estado
     if (oBattle.selected_attack_index == -1) {
         draw_text(px, py, "Selecione um ataque:");
     } else {
-        draw_text(px, py, "Selecione um alvo:");
+        draw_text(px, py, "Selecione um alvo ou troque o ataque:");
     }
     
     py += 25;
@@ -49,22 +47,28 @@ if (oBattle.battle_state == "turn_player") {
         
         var is_hovering = point_in_rectangle(mx, my, px, py, px + text_width, py + text_height);
         
-        // Define a cor do texto para dar feedback ao jogador
         if (oBattle.selected_attack_index == i) {
-            draw_set_color(c_green); // Verde: ataque selecionado
+            draw_set_color(c_green);
         } else if (is_hovering) {
-            draw_set_color(c_yellow); // Amarelo: mouse sobre a opção
+            draw_set_color(c_yellow);
         } else {
-            draw_set_color(c_white); // Branco: padrão
+            draw_set_color(c_white);
         }
         
-        // Se o jogador clicar e o mouse estiver sobre o texto, seleciona o ataque
-        if (is_hovering && mouse_check_button_pressed(mb_left) && oBattle.selected_attack_index == -1) {
-            oBattle.selected_attack_index = i;
+        // --- LÓGICA DE CLIQUE ATUALIZADA ---
+        if (is_hovering && mouse_check_button_pressed(mb_left)) {
+            // Se o jogador clicar no ataque que já está selecionado, ele será desmarcado.
+            if (oBattle.selected_attack_index == i) {
+                oBattle.selected_attack_index = -1;
+            } 
+            // Caso contrário, o novo ataque é selecionado.
+            else {
+                oBattle.selected_attack_index = i;
+            }
         }
 
         draw_text(px, py, attack_text);
         py += 20;
     }
-    draw_set_color(c_white); // Reseta a cor no final
+    draw_set_color(c_white);
 }
