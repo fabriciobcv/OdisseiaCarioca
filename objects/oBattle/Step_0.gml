@@ -57,6 +57,7 @@ switch (battle_state) {
 	        with (ent) {
 	            if (instance_exists(other.player)) {
 	                other.player.hp -= calcular_dano(ent.atk, other.player.def);
+					other.player.flash = true;
 	            }
 	        }
 	    }
