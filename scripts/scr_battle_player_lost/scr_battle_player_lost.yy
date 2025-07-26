@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_battle_player_lost",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_battle_player_lost",
+  "parent":{
+    "name":"battle-states",
+    "path":"folders/Scripts/battle-states.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
