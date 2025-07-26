@@ -40,7 +40,7 @@ switch (battle_state) {
 	            if (alvo != noone) {
 	                var attack = player.ataques[selected_attack_index];
 	                with (alvo) {
-	                    hp -= attack.power;
+	                    hp -= calcular_dano(attack.power, alvo.def);
 	                    if (hp <= 0) instance_destroy();
 	                }
 	                selected_attack_index = -1; // Reseta a seleção para o próximo turno
@@ -56,7 +56,7 @@ switch (battle_state) {
 	    if (instance_exists(ent)) {
 	        with (ent) {
 	            if (instance_exists(other.player)) {
-	                other.player.hp -= 5;
+	                other.player.hp -= calcular_dano(ent.atk, other.player.def);
 	            }
 	        }
 	    }

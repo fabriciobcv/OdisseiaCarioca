@@ -45,3 +45,7 @@ function all_dead(arr) {
 function battle_is_player_dead(player) {
 	return player.hp <= 0;
 }
+
+function calcular_dano(atk, def) {
+	return round(atk / (def / 100))
+}
