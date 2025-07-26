@@ -49,3 +49,7 @@ function battle_is_player_dead(player) {
 function calcular_dano(atk, def) {
 	return round(atk / (def / 100))
 }
+
+function calcular_cura(cura) {
+	return -cura;	
+}

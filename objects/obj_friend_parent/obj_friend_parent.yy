@@ -1,13 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_enemy_parent",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_friend_parent",
+  "eventList":[],
   "managed":true,
-  "name":"obj_enemy_parent",
+  "name":"obj_friend_parent",
   "overriddenProperties":[],
   "parent":{
     "name":"Characters",

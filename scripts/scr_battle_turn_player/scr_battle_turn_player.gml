@@ -6,17 +6,20 @@ function scr_battle_turn_player() {
         if (player.stamina >= attack.cost) {
             if (mouse_check_button_pressed(mb_left)) {
                 var alvo = instance_position(mouse_x, mouse_y, obj_enemy_parent);
-                if (alvo != noone) {
-                    // Deduz a stamina
-                    player.stamina -= attack.cost;
+				var alvoAliado = instance_position(mouse_x, mouse_y, obj_friend_parent);
+				
+				if(alvo != noone || alvoAliado != noone) {
+					if(alvo != noone) {
+						acao_inimigo(alvo, attack)
 
-                    with (alvo) {
-                        hp -= calcular_dano(attack.power, alvo.def);
-                        flash = true;
-                    }
-                    selected_attack_index = -1;
-                    advance_turn();
-                }
+					} else if(attack.target_friends) {
+						acao_aliado(alvoAliado, attack)
+					}
+					
+					player.stamina -= attack.cost;
+					selected_attack_index = -1;
+					advance_turn();
+				}
             }
         } else {
             // Se não tiver stamina, impede o ataque
@@ -27,5 +30,22 @@ function scr_battle_turn_player() {
 	
 	if(player.stamina > player.max_stamina) {
 		player.stamina -= player.stamina - player.max_stamina;	
+	}
+	
+	if(player.hp > player.max_hp) {
+		player.hp -= player.hp - player.max_hp;	
+	}
+}
+
+function acao_inimigo(alvo, attack) {
+    with (alvo) {
+        hp -= calcular_dano(attack.power, def);
+        flash = true;
+    }
+}
+
+function acao_aliado(alvo, attack) {
+	with (alvo) {
+		hp += calcular_cura(attack.power)	
 	}
 }

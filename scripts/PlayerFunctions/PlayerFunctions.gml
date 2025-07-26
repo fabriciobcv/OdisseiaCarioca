@@ -15,8 +15,8 @@ function reset_player_bars(player) {
 
 function get_player_attacks() {
     return [
-        { name: "Ataque Rápido", power: 15, cost: -5, desc: "Um ataque veloz." },
-        { name: "Golpe Forte", power: 30, cost: 10, desc: "Um poderoso golpe que consome MP." },
-        { name: "Cura Leve", power: -25, cost: 15, desc: "Recupera um pouco de HP." }
+        { name: "Ataque Rápido", power: 15, cost: -5, desc: "Um ataque veloz.", target_friends: false },
+        { name: "Golpe Forte", power: 30, cost: 10, desc: "Um poderoso golpe que consome MP.", target_friends: false },
+        { name: "Cura Leve", power: -25, cost: 15, desc: "Recupera um pouco de HP.", target_friends: true }
     ];
 }
