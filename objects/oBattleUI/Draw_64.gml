@@ -14,9 +14,15 @@ var px = 20;
 var py = 20;
 
 if (instance_exists(oBattle.player)) {
-    draw_text(px, py, "Player HP: " + string(oBattle.player.hp));
+    var player_instance = oBattle.player;
+    draw_text(px, py, "Player HP: " + string(player_instance.hp));
+    py += 20;
+    
+    // Desenha a barra de Stamina
+    draw_text(px, py, "Stamina: " + string(floor(player_instance.stamina)));
     py += 30;
 }
+
 
 for (var i = 0; i < array_length(oBattle.inimigos); i++) {
     var inimigo = oBattle.inimigos[i];
