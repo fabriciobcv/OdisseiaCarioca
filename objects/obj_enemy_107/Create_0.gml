@@ -1,3 +1,5 @@
+event_inherited();
+
 original_position_x = x
 original_position_y = y
 spd = 1

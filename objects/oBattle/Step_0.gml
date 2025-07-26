@@ -41,7 +41,7 @@ switch (battle_state) {
 	                var attack = player.ataques[selected_attack_index];
 	                with (alvo) {
 	                    hp -= calcular_dano(attack.power, alvo.def);
-	                    if (hp <= 0) instance_destroy();
+						flash = true; // <-- Adicione esta linha
 	                }
 	                selected_attack_index = -1; // Reseta a seleção para o próximo turno
 	                advance_turn();

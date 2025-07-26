@@ -1,3 +1,14 @@
+// Gerencia o temporizador do flash
+if (flash) {
+    flash_timer = 6; // Duração do flash em frames (6 frames = 0.1s a 60FPS)
+    flash = false;
+}
+
+if (flash_timer > 0) {
+    flash_timer -= 1;
+}
+
+
 if (hp <= 0) {
     sprite_index= spr_player_dead;
 }
@@ -17,14 +28,4 @@ if(can_move){
 	}else{
 	 sprite_index = spr_player_idle
 	}
-}
-
-// Gerencia o temporizador do flash
-if (flash) {
-    flash_timer = 6; // Duração do flash em frames (6 frames = 0.1s a 60FPS)
-    flash = false;
-}
-
-if (flash_timer > 0) {
-    flash_timer -= 1;
 }
