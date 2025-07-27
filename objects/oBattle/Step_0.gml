@@ -10,7 +10,8 @@ if (!setup_done) {
     inicializar_batalha(id);
     
     if (!instance_exists(oBattleUI)) {
-        instance_create_layer(0, 0, 0, oBattleUI);
+		layer_create(-9999, "layer_ui")
+        instance_create_layer(0, 0, "layer_ui", oBattleUI);
     }
 }
 

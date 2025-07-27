@@ -38,5 +38,5 @@
     "path":"sprites/spr_oBattleTrigger/spr_oBattleTrigger.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
