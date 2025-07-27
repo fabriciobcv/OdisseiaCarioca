@@ -1,9 +1,9 @@
 function initialize_inventory() {
     global.inventory = ds_list_create();
-    // Adiciona alguns itens iniciais para teste
-    add_item_to_inventory("Poção");
-    add_item_to_inventory("Poção");
-    add_item_to_inventory("Éter");
+    // Corrigido: Usando as chaves sem acento definidas em global.data
+    add_item_to_inventory("pocao");
+    add_item_to_inventory("pocao");
+    add_item_to_inventory("eter");
 }
 
 function add_item_to_inventory(item_name) {
@@ -14,26 +14,10 @@ function add_item_to_inventory(item_name) {
 }
 
 function get_item_details(item_name) {
-    switch (item_name) {
-        case "Poção":
-            return {
-                name: "Poção",
-                description: "Cura 20 de HP.",
-                effect: "heal",
-                power: 20,
-                target: "ally" // Pode ser 'ally', 'enemy' ou 'self'
-            };
-        case "Éter":
-            return {
-                name: "Éter",
-                description: "Restaura 15 de Stamina.",
-                effect: "restore_stamina",
-                power: 15,
-                target: "ally"
-            };
-        default:
-            return undefined;
+    if (struct_exists(global.data.items, item_name)) {
+        return global.data.items[$ item_name];
     }
+    return undefined;
 }
 
 function use_item(item_index, target) {
