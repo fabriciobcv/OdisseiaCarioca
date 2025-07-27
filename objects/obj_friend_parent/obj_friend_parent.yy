@@ -6,8 +6,8 @@
   "name":"obj_friend_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Characters",
-    "path":"folders/Objects/Characters.yy",
+    "name":"Friends",
+    "path":"folders/Objects/Characters/Friends.yy",
   },
   "parentObjectId":null,
   "persistent":false,
