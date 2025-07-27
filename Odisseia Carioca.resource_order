@@ -22,6 +22,7 @@
     {"name":"Sounds","order":1,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":15,"path":"folders/Sprites.yy",},
     {"name":"Enemies","order":1,"path":"folders/Sprites/Enemies.yy",},
+    {"name":"HUD","order":8,"path":"folders/Sprites/HUD.yy",},
     {"name":"Menu","order":3,"path":"folders/Sprites/Menu.yy",},
     {"name":"NPC","order":2,"path":"folders/Sprites/NPC.yy",},
     {"name":"Player","order":4,"path":"folders/Sprites/Player.yy",},
