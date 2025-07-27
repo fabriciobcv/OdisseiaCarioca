@@ -38,5 +38,5 @@
     "name":"spr_change_room",
     "path":"sprites/spr_change_room/spr_change_room.yy",
   },
-  "visible":false,
+  "visible":true,
 }
