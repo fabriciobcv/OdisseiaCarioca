@@ -13,6 +13,10 @@ function reset_player_bars(player) {
 	player.stamina = player.max_stamina;
 }
 
+function get_xp_to_up(player) {
+	return player.level * 100;
+}
+
 function get_player_attacks() {
     return [
         { name: "Ataque Rápido", power: 15, cost: -5, desc: "Um ataque veloz.", target_friends: false },

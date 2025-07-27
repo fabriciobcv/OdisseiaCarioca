@@ -32,7 +32,10 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"hp","filters":[],"listItems":[],"multiselect":false,"name":"hp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"20","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"def","filters":[],"listItems":[],"multiselect":false,"name":"def","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"500","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"atk","filters":[],"listItems":[],"multiselect":false,"name":"atk","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"atk","filters":[],"listItems":[],"multiselect":false,"name":"atk","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"xp_drop","filters":[],"listItems":[],"multiselect":false,"name":"xp_drop","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"50","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"can_attack","filters":[],"listItems":[],"multiselect":false,"name":"can_attack","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"is_alive","filters":[],"listItems":[],"multiselect":false,"name":"is_alive","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

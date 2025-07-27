@@ -31,15 +31,23 @@ function advance_turn() {
     } else if (ent == player) {
         battle_state = "turn_player";
     } else if (object_is_ancestor(ent.object_index, obj_enemy_parent)) {
-        battle_state = "turn_enemy";
+		if(!ent.is_alive) {
+			advance_turn();	
+		} else {
+			battle_state = "turn_enemy";	
+		}
+        
     }
 }
 
+function end_battle() {
+	battle_state = "ended"
+}
+
 function all_dead(arr) {
-    for (var i = 0; i < array_length(arr); i++) {
-        if (instance_exists(arr[i])) return false;
-    }
-    return true;
+    return array_all(arr, function(inimigo) {
+		return !inimigo.is_alive;
+	})
 }
 
 function battle_is_player_dead(player) {
@@ -47,6 +55,9 @@ function battle_is_player_dead(player) {
 }
 
 function calcular_dano(atk, def) {
+	show_debug_message("Atk");
+	show_debug_message(atk);
+	
 	return round(atk / (def / 100))
 }
 

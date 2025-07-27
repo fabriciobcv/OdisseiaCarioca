@@ -9,7 +9,7 @@ if (!variable_instance_exists(id, "inimigos")) {
 }
 
 parar_player();
-deslocar_camera(100, 0)
+deslocar_camera(100, 0);
 
 // Montar a fila de turnos
 turn_queue = array_create(1, player); // cria array com o player

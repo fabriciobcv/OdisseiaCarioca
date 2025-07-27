@@ -1,5 +1,5 @@
 if (!instance_exists(oBattle) || !instance_exists(obj_player)) {
-    exit;
+    instance_destroy();
 }
 
 var mx = device_mouse_x_to_gui(0);
@@ -20,13 +20,19 @@ if (instance_exists(oBattle.player)) {
     
     // Desenha a barra de Stamina
     draw_text(px, py, "Stamina: " + string(floor(player_instance.stamina)));
+    py += 20;
+	
+	draw_text(px, py, "Level: " + string(player_instance.level));
+    py += 20;
+	
+	draw_text(px, py, "Xp: " + string(player_instance.xp));
     py += 30;
 }
 
 
 for (var i = 0; i < array_length(oBattle.inimigos); i++) {
     var inimigo = oBattle.inimigos[i];
-    if (instance_exists(inimigo)) {
+    if (instance_exists(inimigo) && inimigo.is_alive) {
         draw_text(px, py, "Inimigo " + string(i+1) + " HP: " + string(inimigo.hp));
         py += 30;
     }

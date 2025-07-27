@@ -1,7 +1,9 @@
 event_inherited();
 
 if (hp <= 0) {
-    instance_destroy();
+	visible = false;
+	is_alive = false;
+	can_attack = false;
 }
  
 // distance_to_player = abs(x - obj_player.x);
