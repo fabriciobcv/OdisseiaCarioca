@@ -1,0 +1,1 @@
+sprite_index = spr_botao_retry; // volta ao sprite normal
