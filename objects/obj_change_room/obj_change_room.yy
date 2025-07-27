@@ -30,7 +30,13 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
-  "spriteMaskId":null,
-  "visible":true,
+  "spriteId":{
+    "name":"spr_change_room",
+    "path":"sprites/spr_change_room/spr_change_room.yy",
+  },
+  "spriteMaskId":{
+    "name":"spr_change_room",
+    "path":"sprites/spr_change_room/spr_change_room.yy",
+  },
+  "visible":false,
 }
