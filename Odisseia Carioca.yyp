@@ -81,6 +81,7 @@
     {"id":{"name":"BattleFunctions","path":"scripts/BattleFunctions/BattleFunctions.yy",},},
     {"id":{"name":"CameraFunctions","path":"scripts/CameraFunctions/CameraFunctions.yy",},},
     {"id":{"name":"Data","path":"scripts/Data/Data.yy",},},
+    {"id":{"name":"InimigoFunctions","path":"scripts/InimigoFunctions/InimigoFunctions.yy",},},
     {"id":{"name":"InventoryFunctions","path":"scripts/InventoryFunctions/InventoryFunctions.yy",},},
     {"id":{"name":"PlayerFunctions","path":"scripts/PlayerFunctions/PlayerFunctions.yy",},},
     {"id":{"name":"scr_battle_ended","path":"scripts/scr_battle_ended/scr_battle_ended.yy",},},

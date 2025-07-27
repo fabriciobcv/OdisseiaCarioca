@@ -54,6 +54,7 @@
     {"name":"Menu","order":3,"path":"rooms/Menu/Menu.yy",},
     {"name":"CameraFunctions","order":3,"path":"scripts/CameraFunctions/CameraFunctions.yy",},
     {"name":"Data","order":5,"path":"scripts/Data/Data.yy",},
+    {"name":"InimigoFunctions","order":7,"path":"scripts/InimigoFunctions/InimigoFunctions.yy",},
     {"name":"PlayerFunctions","order":2,"path":"scripts/PlayerFunctions/PlayerFunctions.yy",},
     {"name":"scr_battle_ended","order":6,"path":"scripts/scr_battle_ended/scr_battle_ended.yy",},
     {"name":"scr_battle_player_lost","order":5,"path":"scripts/scr_battle_player_lost/scr_battle_player_lost.yy",},

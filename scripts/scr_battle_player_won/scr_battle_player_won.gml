@@ -3,14 +3,18 @@ function scr_battle_player_won() {
 	
 	reset_player_bars(player);
 	
-	xp_droped = 0;
+	var xp_droped = 0;
 	
-	array_foreach(inimigos, function(inimigo, index) {
+	// Usando um loop for padrão para evitar problemas de escopo
+	for (var i = 0; i < array_length(inimigos); i++) {
+		var inimigo = inimigos[i];
 		xp_droped += inimigo.xp_drop;
-	})
+		
+		// A lógica de drop continua funcionando como antes
+		get_drops(inimigo);
+	}
 	
 	player.xp += xp_droped;
-	
 	player.can_move = true;
 	
 	end_battle();
