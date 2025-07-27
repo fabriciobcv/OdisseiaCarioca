@@ -11,10 +11,11 @@ if (!variable_instance_exists(id, "inimigos")) {
 parar_player();
 deslocar_camera(100, 0);
 
-// Montar a fila de turnos
-turn_queue = array_create(1, player); // cria array com o player
+turn_queue = array_create(1, player); 
 turn_queue = array_concat(turn_queue, inimigos);
-// adiciona inimigos depois
 current_turn = 0;
 
-selected_attack_index = -1; // -1 significa que nenhum ataque foi selecionado
+selected_attack_index = -1; 
+selected_item_index = -1; // Novo: para rastrear o item selecionado
+item_used_this_turn = false; // Novo: para rastrear o uso do item
+player_turn_state = "select_action";

@@ -27,18 +27,20 @@ function advance_turn() {
     var ent = turn_queue[current_turn];
 
     if (!instance_exists(ent)) {
-        advance_turn(); // pula mortos
+        advance_turn();
     } else if (ent == player) {
         battle_state = "turn_player";
+        oBattle.player_turn_state = "select_action"; // Reseta para o menu principal
+        item_used_this_turn = false; 
     } else if (object_is_ancestor(ent.object_index, obj_enemy_parent)) {
 		if(!ent.is_alive) {
 			advance_turn();	
 		} else {
-			battle_state = "turn_enemy";	
+			battle_state = "turn_enemy";
 		}
-        
     }
 }
+
 
 function end_battle() {
 	battle_state = "ended"
