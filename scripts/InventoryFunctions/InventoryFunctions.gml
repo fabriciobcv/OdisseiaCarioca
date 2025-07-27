@@ -20,6 +20,12 @@ function get_item_details(item_name) {
     return undefined;
 }
 
+function get_items(items_names) {
+	return array_map(items_names, function(item_name) {
+		return get_item_details(item_name);
+	})
+}
+
 function use_item(item_index, target) {
     if (item_index < 0 || item_index >= ds_list_size(global.inventory)) {
         return;

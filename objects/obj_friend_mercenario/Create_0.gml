@@ -1,0 +1,1 @@
+has_interacted = false;

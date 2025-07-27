@@ -5,6 +5,7 @@ global.data = {
 	items: {
 		"pocao": {
 			name: "Pocao",
+			identifier: "pocao",
 			description: "Cura 20 de HP.",
 			effect: "heal",
 			power: 20,
@@ -12,10 +13,37 @@ global.data = {
 		},
 		"eter": {
 			name: "Eter",
+			identifier: "eter",
 			description: "Restaura 15 de Stamina.",
 			effect: "restore_stamina",
 			power: 15,
 			target: "ally"
+		},
+		"coxinha": {
+			name: "Coxinha",
+			identifier: "coxinha",
+			price: 15,
+			effect: "heal",
+			power: 10,
+			description: "Tem um gosto meio azedo. Recupera 10 de HP."
+		},
+        "x-bacon": {
+			name: "X-Bacon",
+			identifier: "x-bacon",
+			price: 25,
+			effect: "heal",
+			power: 25,
+			description: "A quantidade de bacon depende da sua sorte. Recupera 25 de HP."
+		},
+        "refrigerante": {
+			name: "Refrigerante",
+			identifier: "refrigerante",
+			price: 10,
+			effect: "restore_stamina",
+			power: 20,
+			description: "Pra rebater. Restaura 20 de Stamina." 
 		}
-	}
+	},
+    // ADICIONE ESTA PARTE
+    shop_items: ["coxinha", "x-bacon", "refrigerante"]
 }

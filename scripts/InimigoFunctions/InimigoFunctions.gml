@@ -1,10 +1,12 @@
 function get_drops(inimigo) {
+    // Adiciona o dinheiro ao jogador
+    obj_player.money += inimigo.money_drop;
+    show_message("Você recebeu R$ " + string(inimigo.money_drop));
     // Verifica de forma segura se a variável 'drops' existe no inimigo
     if (variable_instance_exists(inimigo.id, "drops")) {
         // Itera sobre a lista de possíveis drops do inimigo
         for (var i = 0; i < array_length(inimigo.drops); i++) {
             var drop_info = inimigo.drops[i];
-            
             // Rola um "dado" (um número aleatório de 0.0 a 1.0)
             if (random(1) <= drop_info.chance) {
                 // Se o resultado for menor ou igual à chance, o item é dropado
