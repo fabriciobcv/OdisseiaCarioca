@@ -10,10 +10,10 @@ function scr_battle_turn_player() {
 				
 				if(alvo != noone || alvoAliado != noone) {
 					if(alvo != noone) {
-						acao_inimigo(alvo, attack)
+						acao_inimigo(alvo, attack, player.atk)
 
 					} else if(attack.target_friends) {
-						acao_aliado(alvoAliado, attack)
+						acao_aliado(alvoAliado, attack, player.atk)
 					}
 					
 					player.stamina -= attack.cost;
@@ -37,15 +37,15 @@ function scr_battle_turn_player() {
 	}
 }
 
-function acao_inimigo(alvo, attack) {
+function acao_inimigo(alvo, attack, player_atk) {
     with (alvo) {
-        hp -= calcular_dano(attack.power, def);
+        hp -= calcular_dano(attack.power * player_atk, def);
         flash = true;
     }
 }
 
-function acao_aliado(alvo, attack) {
+function acao_aliado(alvo, attack, player_atk) {
 	with (alvo) {
-		hp += calcular_cura(attack.power)	
+		hp += calcular_cura(attack.power * player_atk + player_atk)	
 	}
 }

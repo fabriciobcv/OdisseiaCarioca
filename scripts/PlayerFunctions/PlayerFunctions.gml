@@ -19,8 +19,8 @@ function get_xp_to_up(player) {
 
 function get_player_attacks() {
     return [
-        { name: "Ataque Rápido", power: 15, cost: -5, desc: "Um ataque veloz.", target_friends: false },
-        { name: "Golpe Forte", power: 30, cost: 10, desc: "Um poderoso golpe que consome MP.", target_friends: false },
-        { name: "Cura Leve", power: -25, cost: 15, desc: "Recupera um pouco de HP.", target_friends: true }
+        { name: "Ataque Rapido", power: 5, cost: -5, desc: "Um ataque veloz.", target_friends: false },
+        { name: "Golpe Forte", power: 15, cost: 10, desc: "Um poderoso golpe que consome MP.", target_friends: false },
+        { name: "Cura Leve", power: -10, cost: 15, desc: "Recupera um pouco de HP.", target_friends: true }
     ];
 }

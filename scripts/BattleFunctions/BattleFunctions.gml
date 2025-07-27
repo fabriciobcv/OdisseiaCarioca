@@ -55,9 +55,7 @@ function battle_is_player_dead(player) {
 }
 
 function calcular_dano(atk, def) {
-	show_debug_message("Atk");
-	show_debug_message(atk);
-	
+
 	return round(atk / (def / 100))
 }
 

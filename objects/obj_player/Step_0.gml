@@ -21,6 +21,8 @@ while(xp >= xp_to_up) {
 	level++;
 	xp -= xp_to_up;
 	atk += round(global.data.atk_level_multiplier * level);
+	show_debug_message("Atk");
+	show_debug_message(atk);
 	max_hp += (global.data.max_hp_level_multiplier * level);
 	hp = max_hp;
 	def += (global.data.max_def_level_multiplier * level)
