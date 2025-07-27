@@ -1,18 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"oBattleTrigger",
+  "%Name":"oBattleTrigger1",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oBattleTrigger",
+  "name":"oBattleTrigger1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Battle",
-    "path":"folders/Objects/Battle.yy",
+    "name":"Trigger",
+    "path":"folders/Objects/Battle/Trigger.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oBattleTriggerParent",
+    "path":"objects/oBattleTriggerParent/oBattleTriggerParent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,9 +34,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite5",
-    "path":"sprites/Sprite5/Sprite5.yy",
+    "name":"Sprite7",
+    "path":"sprites/Sprite7/Sprite7.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

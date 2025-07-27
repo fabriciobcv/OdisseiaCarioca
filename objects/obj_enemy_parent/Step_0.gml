@@ -8,3 +8,9 @@ if (flash) {
 if (flash_timer > 0) {
     flash_timer -= 1;
 }
+
+if (hp <= 0) {
+	visible = false;
+	is_alive = false;
+	can_attack = false;
+}
