@@ -74,6 +74,7 @@
     {"name":"spr_central_do_brasil_background","order":2,"path":"sprites/spr_central_do_brasil_background/spr_central_do_brasil_background.yy",},
     {"name":"spr_change_room","order":5,"path":"sprites/spr_change_room/spr_change_room.yy",},
     {"name":"spr_enemy_idle","order":4,"path":"sprites/spr_enemy_idle/spr_enemy_idle.yy",},
+    {"name":"spr_enemyHealth","order":1,"path":"sprites/spr_enemyHealth/spr_enemyHealth.yy",},
     {"name":"spr_fundo_cidade_background","order":5,"path":"sprites/spr_fundo_cidade_background/spr_fundo_cidade_background.yy",},
     {"name":"spr_gameOver","order":4,"path":"sprites/spr_gameOver/spr_gameOver.yy",},
     {"name":"spr_guarda","order":1,"path":"sprites/spr_guarda/spr_guarda.yy",},

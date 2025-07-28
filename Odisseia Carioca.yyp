@@ -103,6 +103,7 @@
     {"id":{"name":"spr_central_do_brasil_background","path":"sprites/spr_central_do_brasil_background/spr_central_do_brasil_background.yy",},},
     {"id":{"name":"spr_change_room","path":"sprites/spr_change_room/spr_change_room.yy",},},
     {"id":{"name":"spr_enemy_idle","path":"sprites/spr_enemy_idle/spr_enemy_idle.yy",},},
+    {"id":{"name":"spr_enemyHealth","path":"sprites/spr_enemyHealth/spr_enemyHealth.yy",},},
     {"id":{"name":"spr_fundo_cidade_background","path":"sprites/spr_fundo_cidade_background/spr_fundo_cidade_background.yy",},},
     {"id":{"name":"spr_gameOver","path":"sprites/spr_gameOver/spr_gameOver.yy",},},
     {"id":{"name":"spr_guarda","path":"sprites/spr_guarda/spr_guarda.yy",},},

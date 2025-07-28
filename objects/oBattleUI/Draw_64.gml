@@ -68,7 +68,8 @@ var py = action_list_y;
 for (var i = 0; i < array_length(oBattle.inimigos); i++) {
     var inimigo = oBattle.inimigos[i];
     if (instance_exists(inimigo) && inimigo.is_alive) {
-        draw_text(px, py, "Inimigo " + string(i+1) + " HP: " + string(inimigo.hp));
+		draw_sprite_ext(spr_enemyHealth, 0, px, py, 2, 2, 0, c_white, 1);
+        draw_text(px+ 25, py + 15, "Inimigo " + string(i+1) + " HP: " + string(inimigo.hp));
         py += 30;
     }
 }
