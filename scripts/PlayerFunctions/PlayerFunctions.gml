@@ -9,12 +9,11 @@ function destravar_player() {
 
 
 function reset_player_bars(player) {
-	player.hp = player.max_hp;
 	player.stamina = player.max_stamina;
 }
 
 function get_xp_to_up(player) {
-	return 5;
+	return ( level * 100 )/2;
 }
 
 function get_player_attacks() {

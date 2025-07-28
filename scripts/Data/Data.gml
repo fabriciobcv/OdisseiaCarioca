@@ -1,5 +1,5 @@
 global.data = {
-	atk_level_multiplier: 10,
+	atk_level_multiplier: 3,
 	max_hp_level_multiplier: 2,
 	max_def_level_multiplier: 2,
 	items: {
@@ -25,7 +25,8 @@ global.data = {
 			price: 15,
 			effect: "heal",
 			power: 10,
-			description: "Tem um gosto meio azedo. Recupera 10 de HP."
+			description: "Tem um gosto meio azedo. Recupera 10 de HP.",
+			target: "ally"
 		},
         "x-bacon": {
 			name: "X-Bacon",
@@ -33,7 +34,8 @@ global.data = {
 			price: 25,
 			effect: "heal",
 			power: 25,
-			description: "A quantidade de bacon depende da sua sorte. Recupera 25 de HP."
+			description: "A quantidade de bacon depende da sua sorte. Recupera 25 de HP.",
+			target: "ally"
 		},
         "refrigerante": {
 			name: "Refrigerante",
@@ -41,7 +43,8 @@ global.data = {
 			price: 10,
 			effect: "restore_stamina",
 			power: 20,
-			description: "Pra rebater. Restaura 20 de Stamina." 
+			description: "Pra rebater. Restaura 20 de Stamina.",
+			target: "ally"
 		}
 	},
     // ADICIONE ESTA PARTE

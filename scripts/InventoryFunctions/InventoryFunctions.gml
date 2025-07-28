@@ -1,9 +1,6 @@
 function initialize_inventory() {
     global.inventory = ds_list_create();
     // Corrigido: Usando as chaves sem acento definidas em global.data
-    add_item_to_inventory("pocao");
-    add_item_to_inventory("pocao");
-    add_item_to_inventory("eter");
 }
 
 function add_item_to_inventory(item_name) {
