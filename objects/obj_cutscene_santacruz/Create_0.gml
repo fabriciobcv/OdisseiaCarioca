@@ -1,0 +1,1 @@
+cutscene_sprite = spr_cutscene_santacruz

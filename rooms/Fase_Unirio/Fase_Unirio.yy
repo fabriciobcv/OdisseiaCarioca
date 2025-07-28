@@ -11,6 +11,7 @@
     {"name":"inst_3D8210BD","path":"rooms/Fase_Unirio/Fase_Unirio.yy",},
     {"name":"inst_44DC9B8B","path":"rooms/Fase_Unirio/Fase_Unirio.yy",},
     {"name":"inst_6DA06663","path":"rooms/Fase_Unirio/Fase_Unirio.yy",},
+    {"name":"inst_581E0887","path":"rooms/Fase_Unirio/Fase_Unirio.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -20,6 +21,7 @@
         {"$GMRInstance":"v2","%Name":"inst_3D8210BD","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3D8210BD","objectId":{"name":"obj_musica","path":"objects/obj_musica/obj_musica.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":114.0,"y":59.0,},
         {"$GMRInstance":"v2","%Name":"inst_44DC9B8B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_44DC9B8B","objectId":{"name":"obj_player_start","path":"objects/obj_player_start/obj_player_start.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":49.0,"y":210.0,},
         {"$GMRInstance":"v2","%Name":"inst_6DA06663","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6DA06663","objectId":{"name":"obj_friend_mercenario","path":"objects/obj_friend_mercenario/obj_friend_mercenario.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.4385965,"scaleY":0.5862069,"x":21.2807,"y":211.0,},
+        {"$GMRInstance":"v2","%Name":"inst_581E0887","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_581E0887","objectId":{"name":"obj_cutscene_unirio","path":"objects/obj_cutscene_unirio/obj_cutscene_unirio.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":127.0,"y":31.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_2C15BA92","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_2C15BA92","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5777778,"scaleY":0.4,"spriteId":{"name":"spr_unirio_background","path":"sprites/spr_unirio_background/spr_unirio_background.yy",},"x":0.0,"y":80.0,},

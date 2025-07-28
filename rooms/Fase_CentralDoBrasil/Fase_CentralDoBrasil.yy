@@ -10,6 +10,7 @@
     {"name":"inst_65629197","path":"rooms/Fase_CentralDoBrasil/Fase_CentralDoBrasil.yy",},
     {"name":"inst_654678DA","path":"rooms/Fase_CentralDoBrasil/Fase_CentralDoBrasil.yy",},
     {"name":"inst_65DB6445","path":"rooms/Fase_CentralDoBrasil/Fase_CentralDoBrasil.yy",},
+    {"name":"inst_795A8D41","path":"rooms/Fase_CentralDoBrasil/Fase_CentralDoBrasil.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -18,6 +19,7 @@
         {"$GMRInstance":"v2","%Name":"inst_65629197","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_65629197","objectId":{"name":"obj_change_room","path":"objects/obj_change_room/obj_change_room.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.25,"scaleY":1.25,"x":416.0,"y":32.0,},
         {"$GMRInstance":"v2","%Name":"inst_654678DA","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_654678DA","objectId":{"name":"obj_musica","path":"objects/obj_musica/obj_musica.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":48.0,"y":32.0,},
         {"$GMRInstance":"v2","%Name":"inst_65DB6445","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_65DB6445","objectId":{"name":"obj_player_start","path":"objects/obj_player_start/obj_player_start.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":48.0,"y":97.0,},
+        {"$GMRInstance":"v2","%Name":"inst_795A8D41","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_795A8D41","objectId":{"name":"obj_cutscene_central","path":"objects/obj_cutscene_central/obj_cutscene_central.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":80.0,"y":32.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_352658F2","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_352658F2","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_central_do_brasil_background","path":"sprites/spr_central_do_brasil_background/spr_central_do_brasil_background.yy",},"x":0.0,"y":0.0,},
