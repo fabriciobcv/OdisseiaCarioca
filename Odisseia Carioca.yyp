@@ -88,6 +88,7 @@
     {"id":{"name":"Fase_SantaCruz","path":"rooms/Fase_SantaCruz/Fase_SantaCruz.yy",},},
     {"id":{"name":"Fase_Trem","path":"rooms/Fase_Trem/Fase_Trem.yy",},},
     {"id":{"name":"Fase_Unirio","path":"rooms/Fase_Unirio/Fase_Unirio.yy",},},
+    {"id":{"name":"Fase_Vitoria","path":"rooms/Fase_Vitoria/Fase_Vitoria.yy",},},
     {"id":{"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"id":{"name":"BattleFunctions","path":"scripts/BattleFunctions/BattleFunctions.yy",},},
@@ -153,6 +154,7 @@
     {"roomId":{"name":"Fase_Ponto107","path":"rooms/Fase_Ponto107/Fase_Ponto107.yy",},},
     {"roomId":{"name":"Fase_Unirio","path":"rooms/Fase_Unirio/Fase_Unirio.yy",},},
     {"roomId":{"name":"Fase_CentralFinal","path":"rooms/Fase_CentralFinal/Fase_CentralFinal.yy",},},
+    {"roomId":{"name":"Fase_Vitoria","path":"rooms/Fase_Vitoria/Fase_Vitoria.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

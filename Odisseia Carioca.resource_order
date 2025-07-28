@@ -61,6 +61,7 @@
     {"name":"Fase_Ponto107","order":7,"path":"rooms/Fase_Ponto107/Fase_Ponto107.yy",},
     {"name":"Fase_Trem","order":6,"path":"rooms/Fase_Trem/Fase_Trem.yy",},
     {"name":"Fase_Unirio","order":8,"path":"rooms/Fase_Unirio/Fase_Unirio.yy",},
+    {"name":"Fase_Vitoria","order":10,"path":"rooms/Fase_Vitoria/Fase_Vitoria.yy",},
     {"name":"GameOver","order":2,"path":"rooms/GameOver/GameOver.yy",},
     {"name":"Menu","order":3,"path":"rooms/Menu/Menu.yy",},
     {"name":"CameraFunctions","order":2,"path":"scripts/CameraFunctions/CameraFunctions.yy",},
