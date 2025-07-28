@@ -14,7 +14,7 @@ function reset_player_bars(player) {
 }
 
 function get_xp_to_up(player) {
-	return player.level * 100;
+	return 5;
 }
 
 function get_player_attacks() {

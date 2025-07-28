@@ -47,3 +47,8 @@ global.data = {
     // ADICIONE ESTA PARTE
     shop_items: ["coxinha", "x-bacon", "refrigerante"]
 }
+
+global.player_hp = 100;
+global.player_max_hp = 100;
+global.player_dinheiro = 0;
+global.player_ataque = 10;

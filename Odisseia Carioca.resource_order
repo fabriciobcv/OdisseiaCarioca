@@ -45,6 +45,7 @@
     {"name":"obj_fundo_cidade","order":10,"path":"objects/obj_fundo_cidade/obj_fundo_cidade.yy",},
     {"name":"obj_inventory","order":11,"path":"objects/obj_inventory/obj_inventory.yy",},
     {"name":"obj_musica","order":13,"path":"objects/obj_musica/obj_musica.yy",},
+    {"name":"obj_player_start","order":15,"path":"objects/obj_player_start/obj_player_start.yy",},
     {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
     {"name":"obj_shop_ui","order":12,"path":"objects/obj_shop_ui/obj_shop_ui.yy",},
     {"name":"text","order":1,"path":"objects/text/text.yy",},
