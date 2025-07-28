@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sound_unirio",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":223.02766,
+  "name":"sound_unirio",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sound_unirio.mp3",
+  "type":0,
+  "volume":0.1,
+}

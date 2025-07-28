@@ -13,6 +13,7 @@
     {"name":"inst_5EB1160E","path":"rooms/Fase_Trem/Fase_Trem.yy",},
     {"name":"inst_14B63216","path":"rooms/Fase_Trem/Fase_Trem.yy",},
     {"name":"inst_4F2E7F04","path":"rooms/Fase_Trem/Fase_Trem.yy",},
+    {"name":"inst_665AF00D","path":"rooms/Fase_Trem/Fase_Trem.yy",},
     {"name":"inst_34475149","path":"rooms/Fase_Trem/Fase_Trem.yy",},
   ],
   "isDnd":false,
@@ -25,6 +26,7 @@
         {"$GMRInstance":"v2","%Name":"inst_5EB1160E","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5EB1160E","objectId":{"name":"obj_change_room","path":"objects/obj_change_room/obj_change_room.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.29458427,"scaleY":1.109375,"x":714.0,"y":34.0,},
         {"$GMRInstance":"v2","%Name":"inst_14B63216","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_14B63216","objectId":{"name":"oBattleTrigger","path":"objects/oBattleTrigger/oBattleTrigger.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":341.0,"y":89.0,},
         {"$GMRInstance":"v2","%Name":"inst_4F2E7F04","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4F2E7F04","objectId":{"name":"oBattleTrigger","path":"objects/oBattleTrigger/oBattleTrigger.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":559.0,"y":89.0,},
+        {"$GMRInstance":"v2","%Name":"inst_665AF00D","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_665AF00D","objectId":{"name":"obj_musica","path":"objects/obj_musica/obj_musica.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":75.0,"y":43.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_4FFA1C20_1","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_4FFA1C20_1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_trem_background","path":"sprites/spr_trem_background/spr_trem_background.yy",},"x":0.0,"y":34.0,},

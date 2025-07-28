@@ -11,6 +11,7 @@
     {"name":"inst_64C1F8A9","path":"rooms/Fase_SantaCruz/Fase_SantaCruz.yy",},
     {"name":"inst_1A23E79E","path":"rooms/Fase_SantaCruz/Fase_SantaCruz.yy",},
     {"name":"inst_188561B2","path":"rooms/Fase_SantaCruz/Fase_SantaCruz.yy",},
+    {"name":"inst_4A987DC7","path":"rooms/Fase_SantaCruz/Fase_SantaCruz.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -20,6 +21,7 @@
         {"$GMRInstance":"v2","%Name":"inst_64C1F8A9","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_64C1F8A9","objectId":{"name":"oBattleTrigger","path":"objects/oBattleTrigger/oBattleTrigger.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":146.0,"y":291.0,},
         {"$GMRInstance":"v2","%Name":"inst_1A23E79E","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1A23E79E","objectId":{"name":"obj_change_room","path":"objects/obj_change_room/obj_change_room.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.21875,"scaleY":0.37499997,"x":706.0,"y":283.0,},
         {"$GMRInstance":"v2","%Name":"inst_188561B2","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_188561B2","objectId":{"name":"oBattleTrigger","path":"objects/oBattleTrigger/oBattleTrigger.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":508.0,"y":291.0,},
+        {"$GMRInstance":"v2","%Name":"inst_4A987DC7","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4A987DC7","objectId":{"name":"obj_musica","path":"objects/obj_musica/obj_musica.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":166.0,"y":75.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_5766B66","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_5766B66","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_santa_cruz_background","path":"sprites/spr_santa_cruz_background/spr_santa_cruz_background.yy",},"x":0.0,"y":54.0,},
